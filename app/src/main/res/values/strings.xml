@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DoctorNow</string>
+    <string-array name="id_types">
+        <item>Cédula</item>
+        <item>Pasaporte</item>
+    </string-array>
+</resources>

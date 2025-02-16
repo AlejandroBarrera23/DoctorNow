@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".view.MainActivity">
+
+    <!-- Logo de la app -->
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/logo"
+        android:contentDescription="Logo de la aplicación"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Botón de Iniciar Sesión para Administrador/Recepcionista -->
+    <Button
+        android:id="@+id/btn_login_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión (Admin/Recepcionista)"
+        android:backgroundTint="@color/medical_blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"/>
+
+    <!-- Botón de Iniciar Sesión para Usuario -->
+    <Button
+        android:id="@+id/btn_login_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión (Paciente)"
+        android:backgroundTint="@color/medical_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"/>
+
+    <!-- Botón de Registro para Usuario -->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse (Paciente)"
+        android:backgroundTint="@color/medical_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_marginHorizontal="40dp"
+        android:padding="12dp"/>
+</LinearLayout>
